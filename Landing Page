@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amrendra fitness websites</title>
+    <script>
+        alert("Are you want to visit the Website !");
+        var a=confirm("Do you like our website ?");
+        //alert(a);
+        if(a){
+            alert("Thanks");
+        } else{
+            alert("Soory");
+        }
+        /*function hello(){
+            alert("Your response is recorded");
+        }*/
+    </script>
+
+</head>
+<link rel="stylesheet" href="css/Fitness.css">
+<style>
+    /* CSS Reset*/
+    body {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        margin: 0px;
+        padding: 0px;
+        background: url('https://wallpapercave.com/wp/wp5734408.jpg');
+    }
+
+    .left {
+        color: rgb(45, 37, 37);
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 135px;
+        /* to make image black to white or white to black*/
+        filter: invert(15%);
+    }
+
+    .left div {
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .mid {
+        border: 4px solid brown;
+        background-color: blue;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        display: block;
+        font-size: medium;
+        width: 40%;
+        margin: 29px auto;
+        /*border: 2px solid red;*/
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /*border: 2px solid yellow;*/
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: red;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: yellowgreen;
+        text-decoration: underline;
+    }
+
+    .btn {
+        font-family: 'Times New Roman', Times, serif;
+        border: 3px solid blue;
+        margin: 12px 9px;
+        background-color: black;
+        color: red;
+        font-size: 18px;
+        border-radius: 9px;
+        padding: 4px 14px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        color: yellow;
+        background-color: gray;
+        text-decoration: underline;
+    }
+
+    .container {
+        text-align: center;
+        border: 9px solid orange;
+        margin: 60px;
+        padding: 80px;
+        width: 50%;
+        border-radius: 20px;
+    }
+
+    .form-group input {
+        text-align: center;
+        width: 300px;
+        padding: 1px;
+        border: 2px solid red;
+        margin: 3px;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        padding: 15px;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        color: rgb(255, 128, 0);
+
+    }
+
+    .container button {
+        color: blue;
+        background-color: brown;
+        display: block;
+        font-size: 25px;
+        width: 60%;
+        margin: 7px auto;
+        border-radius: 19px;
+    }
+
+    .container button:hover {
+        color: red;
+        background-color: gray;
+        text-decoration: underline;
+    }
+
+    .firstpara {
+        color: black;
+        margin: 34px;
+        padding: 55px;
+    }
+
+    details {
+        text-align: justify;
+        color: rgb(10, 218, 10)7, 26, 26);
+    }
+
+    .lastpara {
+        color: black;
+        margin: auto;
+        padding: 0px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!--Left class for logo-->
+        <div class="left">
+            <img src="https://i.pinimg.com/736x/a0/8b/aa/a08baaad32de4e8634b3db73a8dad620.jpg" alt="">
+            <div>Fitness Club</div>
+        </div>
+        <!--Mid class for logo -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="Amrendra-Home" class="active">Home</a></li>
+                <li><a href="Amrendra-About us">About us</a></li>
+                <li><a href="Amrendra-Fitnees Calculator">Fitness Calculator</a></li>
+                <li><a href="Amrendra-Contact us file">Contact us</a></li>
+            </ul>
+        </div>
+        <!--Right class for logo-->
+        <div class="right">
+            <button onlick="yes()" class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+        
+    </header>
+    <p class="firstpara">A gym isn’t just a place for exercise; it’s the place you go to unwind, socialize and work out.
+        The gym is a whole experience. Some of the most successful facilities have several gym features that contribute
+        to the kind of member experience that drives retention and sales. </p>
+    <section>
+        <details
+            style="text-align: center; color:rgb(23, 40, 228); font-size: 20px; font_family:'Times New Roman', cursive', Times, serif", onlick="yes()">
+            <li>A gymnasium, also known as a gym, is a covered location for athletics. The word is derived from the
+                ancient Greek term "gymnasium". They are commonly found in athletic and fitness centres, and as activity
+                and learning spaces in educational institutions. "Gym" is also slang for "fitness centre", which is
+                often an area for indoor recreation. A "gym" may include or describe adjacent open air areas as well. In
+                Western countries, "gyms" (or pl: gymnasia") often describe places with indoor or outdoor courts for
+                basketball, hockey, tennis, boxing or wrestling, and with equipment and machines used for physical
+                development training, or to do exercises. In many European countries, Gymnasium (and variations of the
+                word) also can describe a secondary school that prepares students for higher education.</li>
+            <li>Feel More Energized
+                Research suggests that regular exercise can increase energy levels even among people suffering from
+                chronic medical conditions associated with fatigue, like cancer and heart disease. This may seem
+                counterintuitive, but researchers say expending energy by engaging in regular exercise may pay off with
+                increased energy in the long run!
+
+                “A lot of times when people are fatigued, the last thing they want to do is exercise,” says researcher
+                Patrick O’Connor, PhD, in a news release. “But if you’re physically inactive and fatigued, being just a
+                bit more active will help,” says O’Connor.</li>
+            <li>(PRACTICAL) Burn More Calories at Rest
+
+                Your body is at work using energy even when you’re sleeping! The number of calories you burn has to do
+                with various factors, including your weight, your metabolism, and how much sleep you get each night.
+
+                Having more muscle mass in general helps you burn more calories, even while you’re sleeping. We suggest
+                exercising daily, especially strength training. If you have trouble settling down at night, try getting
+                in your exercise several hours before bed. PHF has open gym and classes from 4:30-6:30 Monday through
+                Friday! Exercising several hours before bed will help you get a better night’s rest.</li>
+        </details>
+    </section>
+    <div class="container">
+        <h1 style="color:red">Join the best gym of Jaunpur now</h1>
+        <form>  <!--action="noaction.php"-->
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter your Weight(kg.)">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter Mobile No.">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Email id.">
+                <!--<tr>
+                    <td style="text-align: center; color:brown; font-size: 20px; font_family:'Times New Roman', cursive', Times, serif">
+                        Gender:
+                    </td>
+                    <td style="text-align: center; color:brown; font-size: 20px; font_family:'Times New Roman', cursive', Times, serif">
+                        <input type="radio" name="gender">Male
+                        <input type="radio" name="gender">Female
+                    </td>
+                </tr>-->
+            </div>
+            <button class="group" onclick="hello;">Submit</button>
+            <button class="group">Reset</button>
+        </form>
+
+    </div>
+    <p class="lastpara">There are various reasons why members choose specific gyms. When two brands provide a similar
+        service, a lot of the time it doesn’t come down to price, but the value you bring. There’s no point in paying
+        for a cheaper membership when it doesn’t meet all your requirements. By integrating top gym features into your
+        business, you can beat out the competition and attract your target audience. In this article, we talk about what
+        makes a great gym and gym features of a successful fitness business. </p>
+    <footer>
+        <p>Instagram &nbsp;&nbsp;&nbsp;&nbsp; facebook &nbsp;&nbsp;&nbsp;&nbsp; Telegram</p>
+        <p>&copy;2023 powered by VBSPU</p>
+    </footer>
+</body>
+
+</html>
